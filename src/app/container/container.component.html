@@ -1,0 +1,25 @@
+<div class="container">
+  <h4>Rentrez un nom d'utilisateur :</h4>
+    <div class="form-group">
+      <input id="form_input" type="text" class="form-control" placeholder="User Hub Docker">
+      <small class="form-text text-muted">Veuillez saisir un nom d'utilisateur Hub Docker valide</small>
+    </div>
+    <button  (click)="getImage(draggableComponentClass)" class="btn btn-primary">Voir toutes les images</button>
+    <button  id="btn_second" (click)="getImage_date(draggableComponentClass)" class="btn btn-primary">Voir les plus récentes</button>
+  </div>
+  
+  <div class="container" style="height: 20em; margin-top: 2em">
+    <h3><p>Liste des images Hub Docker :</p></h3>
+  
+    <ul id="image_container">
+  
+    </ul>
+    <div class="where_you_want_to_inject">    
+      <ng-template #container></ng-template>
+    </div>
+
+    <div id="image_list"></div>
+    <div id="results"></div>
+  </div>
+
+  
