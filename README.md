@@ -1,4 +1,4 @@
-# SPAHuber
+# SPA Hub Docker Tracker
 
 Vous pourrez trouver ci-joint une SPA simple qui permet de lister les images Hub Docker uploadés par un utilisateur.
 
