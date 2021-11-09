@@ -1,0 +1,9 @@
+{
+  "/api/*": {
+    "target": "https://hub.docker.com/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {"^/api" : ""}
+  }
+}
